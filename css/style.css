@@ -1,0 +1,297 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mohave:wght@400;700&display=swap');
+ 
+/* 
+
+font-family: 'Lato', sans-serif;
+font-family: 'Mohave', sans-serif;
+
+
+*/
+
+body {
+    background-color: #41B3A3;
+    color: #F5F5F5;
+    font-family: 'Mohave', sans-serif;
+   
+
+}
+h1 {
+    font-weight: bold;
+    font-family: 'Mohave', sans-serif;
+    font-size: 64px;
+    text-align: center;
+}
+
+h4, h5, .item-desc {
+    color: #434343;
+}
+
+.body-header {
+    color: #41B3A3;
+}
+
+
+.navbar {
+    font-family: 'Mohave', sans-serif;
+    font-weight: 700;
+
+}
+
+.nav-link {
+    color: #F5F5F5;
+    text-align: center;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #F5F5F5;
+}
+
+.navbar-collapse,
+.collapse {
+    background-color: #41B3A3;
+
+
+}
+
+.back-button button {
+ 
+  
+    font-size: 1.2em;
+    background-color: #F5F5F5 !important;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: #41B3A3 !important;
+    font-weight: 700;
+}
+
+.form-container {
+padding: 0 15% 0 15%;
+}
+
+/* Input box */
+input {
+    background-color: #45BFAF !important;
+  
+}
+
+.form-control {
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    color: #F5F5F5 !important;
+    font-family: 'Lato', sans-serif;
+  
+}
+label {
+    font-weight: 700;
+}
+
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    margin: 5px 5px 5px 10px;
+    min-width: 40px;
+}
+
+.form-label {
+    padding-left: 10px;
+}
+  
+
+.registerBtn {
+    background-color: #F5F5F5 !important;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
+    color: #45BFAF !important;
+    font-weight: 900 !important;
+}
+
+h2 {
+    font-weight:normal;
+    font-size: 1.2rem;
+
+}
+
+.para-a {
+    color: #41B3A3;
+}
+a {
+    color:#F5F5F5;
+}
+
+.clip-container {
+    background-color: #F5F5F5;
+}
+.set-width {
+    width: 100%;
+}
+.clip__div {
+    background-color: #111;
+    clip-path: polygon(0 0, 100% 0%, 100% 0, 0 100%);
+    height: 10vh;
+    background-color: #41B3A3;
+}
+
+.admin-container {
+    background-color: #F5F5F5;
+    height: 50vh;
+}
+
+.admin-button-container button {
+    padding: 10px 20px 10px 20px;
+    height: 90px;
+    width: 130px;
+    margin: 10px;
+    font-size: 1.5em;
+    background-color: #45BFAF !important;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: #F5F5F5 !important;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+.addrecord-container, .editrecord-container {
+    background-color: #F5F5F5;
+    color: #45BFAF;
+    
+}
+
+
+
+.add-input input {
+    background-color: #FFFFFF !important;
+}
+.add-input label {
+    color: #45BFAF !important;
+}
+
+.add-input select {
+-webkit-appearance: menulist;
+appearance: menulist;
+}
+
+.add-form {
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 100%;
+    padding: 10px;
+  
+    color: #45BFAF !important;
+    font-family: 'Lato', sans-serif;
+  
+}
+
+
+.cancelBtn, .searchBtn {
+    background-color: #FFFFFF !important;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
+    color: #45BFAF !important;
+    font-weight: 900 !important;
+}
+
+.cancelBtn {
+    width: 100px;
+}
+
+.addBtn {
+    background-color: #45BFAF !important;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
+    color: #F5F5F5 !important;
+    font-weight: 900 !important;
+    width: 100px;
+}
+
+
+.search-label {
+    display: none;
+}
+
+.resultsImg {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+
+}
+
+
+
+hr.solid {
+    border: 0;
+    border-top: 3px solid #41B3A3;
+    opacity: 1;
+  }
+
+  .editProduct--hidden {
+      display: none;
+  }
+
+a:hover, a:focus {
+    color: rgba(0,0,0,.7);
+}
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
+.footer-icon img {
+    width:50px;
+    height: 50px;
+    
+}
+
+
+
+footer {
+    margin-top: 50px;
+  } 
+
+
+
+
+
+/* to make the navbar open full screen on mobile */
+@media (max-width: 768px) {
+    #navbar-content {
+        height: 80vh;
+    }
+
+    .form-container {
+        padding: 0 5% 0 5%;
+        }
+        
+   
+    
+}
